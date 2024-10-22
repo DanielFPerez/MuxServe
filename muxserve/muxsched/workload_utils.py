@@ -473,7 +473,7 @@ def sample_requests(
     dataset_path: str,
     seqlen_distribution: Optional[Tuple[int, int]] = None,
     tokenized_cache_path: str = None,
-) -> List[Tuple[list[int], int, int]]:
+) -> List[Tuple[List[int], int, int]]:
     '''
     return: (encoded_prompt, intput_len, output_len)
     '''
